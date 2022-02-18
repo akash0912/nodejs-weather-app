@@ -1,7 +1,3 @@
-console.log("Client side java script is loaded")
-
-
-
 const formEl = document.querySelector('form');
 const input = document.querySelector('input');
 const message_1 = document.querySelector('.message-1'); 
