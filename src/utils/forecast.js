@@ -13,7 +13,7 @@ const forecast = (lat,lng, callback)=>{
         else{
             //after adding the json to url object
             const data = body.current
-           callback(undefined,`${data.weather_descriptions[0]}. It is currently ${data.temperature} degrees out but it feels like ${data.feelslike} degrees out!`)
+           callback(undefined,`${data.weather_descriptions[0]}. It is currently ${data.temperature} degrees out but it feels like ${data.feelslike} degrees out. Huhmidity is ${data.humidity} percent.`)
         }
        
        
